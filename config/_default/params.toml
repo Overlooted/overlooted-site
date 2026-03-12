@@ -64,7 +64,7 @@ fingerprintAlgorithm = "sha512"
   showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = false
-  sharingLinks = ["twitter", "reddit", "discord", "whatsapp", "telegram", "facebook", "email"]
+  sharingLinks = []
 
 [list]
   showHero = true
