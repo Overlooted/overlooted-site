@@ -1,0 +1,57 @@
+# -- Main Menu --
+# Displayed in the header. Use `pre` to show an icon (matches blowfish icon names).
+# Use `parent` to nest items into a dropdown.
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 10
+
+[[main]]
+  name = "Devlog"
+  pageRef = "devlog"
+  weight = 20
+
+[[main]]
+  name = "Press Kit"
+  pageRef = "press"
+  weight = 30
+
+# Social icon links — no name, just icons in the header nav.
+# Hugo menu entries cannot reference site params, so these URLs must be kept
+# in sync manually with params.author.links in languages.en.toml.
+[[main]]
+  identifier = "twitter"
+  pre = "x-twitter"
+  url = "https://twitter.com/overlooted"
+  weight = 100
+
+[[main]]
+  identifier = "discord"
+  pre = "discord"
+  url = "https://discord.gg/overlooted"
+  weight = 110
+
+[[main]]
+  identifier = "reddit"
+  pre = "reddit"
+  url = "https://reddit.com/r/overlooted"
+  weight = 120
+
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Devlog"
+  pageRef = "devlog"
+  weight = 10
+
+[[footer]]
+  name = "Press Kit"
+  pageRef = "press"
+  weight = 20
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30

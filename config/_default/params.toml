@@ -1,0 +1,100 @@
+colorScheme = "fire"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+
+# Set to true once you have real social media accounts
+showSocialLinks = false
+
+enableSearch = true
+enableCodeCopy = false
+
+mainSections = ["devlog"]
+
+disableImageOptimization = false
+disableTextInHeader = false
+
+defaultBackgroundImage = "img/hero-bg.svg"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
+
+fingerprintAlgorithm = "sha512"
+
+[header]
+  layout = "fixed"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "hero"
+  homepageImage = "img/hero-bg.svg"
+  disableHeroImageFilter = true
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = "devlog"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = false
+
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showTaxonomies = true
+  showAuthorsBadges = false
+  showWordCount = false
+  sharingLinks = ["twitter", "reddit", "discord", "whatsapp", "telegram", "facebook", "email"]
+
+[list]
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  showCards = true
+  orderByWeight = false
+  groupByYear = true
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = false
+  showTableOfContents = false
+  cardView = true
+
+[term]
+  showHero = true
+  heroStyle = "background"
+  showBreadcrumbs = false
+  showTableOfContents = false
+  groupByYear = true
+  cardView = true

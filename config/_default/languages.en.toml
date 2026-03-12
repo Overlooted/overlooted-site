@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Overlooted"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  description = "A cozy cart-filling dungeon crawler. Loot, sort, and survive."
+
+[params.author]
+  name = "Overlooted"
+  headline = "A Cozy Cart-Filling Dungeon Crawler"
+  bio = "Loot dungeons. Fill your cart. Try not to die."
+  # ── Social links ──────────────────────────────────────────────────────────
+  # This is the SINGLE SOURCE OF TRUTH for social URLs.
+  # • The hero/profile homepage layout reads these directly.
+  # • The {{< social >}} shortcode reads these for use in content pages.
+  # • menus.en.toml nav icons must be kept in sync manually (Hugo limitation —
+  #   menu entries cannot reference site params).
+  links = [
+    { twitter   = "https://twitter.com/overlooted" },
+    { discord   = "https://discord.gg/overlooted" },
+    { instagram = "https://instagram.com/overlooted" },
+    { tiktok    = "https://tiktok.com/@overlooted" },
+    { reddit    = "https://reddit.com/r/overlooted" },
+  ]

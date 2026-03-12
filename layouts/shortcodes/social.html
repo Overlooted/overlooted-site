@@ -1,0 +1,32 @@
+{{/*
+  Usage — all named parameters:
+    {{< social platform="discord" >}}
+    {{< social platform="discord" label="Join our Discord" >}}
+    {{< social platform="discord" style="link" label="Discord" >}}
+
+  style="button" (default) → styled primary button
+  style="link"             → plain inline <a> for use inside prose paragraphs
+
+  URLs are read from params.author.links in languages.en.toml.
+  That file is the single source of truth — update social URLs there only.
+*/}}
+{{- $platform := .Get "platform" -}}
+{{- $label    := .Get "label" | default ($platform | title) -}}
+{{- $style    := .Get "style" | default "button" -}}
+{{- $url      := "" -}}
+
+{{- range .Site.Params.Author.links -}}
+  {{- range $name, $u := . -}}
+    {{- if eq $name $platform -}}{{- $url = $u -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not .Site.Params.showSocialLinks -}}
+  {{- /* Socials disabled — render nothing */ -}}
+{{- else if not $url -}}
+  {{- warnf "social shortcode: no URL found for platform %q — check params.author.links in languages.en.toml" $platform -}}
+{{- else if eq $style "link" -}}
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $label }}</a>
+{{- else -}}
+<a class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700" href="{{ $url }}" target="_blank" rel="noopener noreferrer" role="button">{{ $label }}</a>
+{{- end -}}

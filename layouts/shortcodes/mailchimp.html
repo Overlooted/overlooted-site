@@ -1,0 +1,48 @@
+{{/*
+  Mailchimp signup form — plain HTML POST, zero Mailchimp CSS or JS.
+  On submit, Mailchimp redirects to their own confirmation page.
+
+  Fields come from your Mailchimp audience: EMAIL (required), FNAME (optional).
+  The hidden bot-protection input must stay exactly as-is.
+*/}}
+<div class="not-prose mt-10 text-center">
+  <p class="mb-4 text-sm font-bold tracking-widest uppercase text-neutral-500 dark:text-neutral-400">
+    Stay in the Loop
+  </p>
+  <form
+    action="https://gmail.us14.list-manage.com/subscribe/post?u=042682f6c2804b972bf9a7d8d&amp;id=c9c02d4a70&amp;f_id=00d1bee5f0"
+    method="post"
+    target="_blank"
+  >
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-2 max-w-md mx-auto">
+      <input
+        type="text"
+        name="FNAME"
+        placeholder="First name (optional)"
+        aria-label="First name"
+        class="w-full rounded-md border border-neutral-400 dark:border-neutral-600 bg-neutral-100 dark:bg-neutral-800 px-4 py-2 text-sm text-neutral-800 dark:text-neutral focus:outline-none focus:ring-2 focus:ring-primary-500"
+      />
+      <input
+        type="email"
+        name="EMAIL"
+        placeholder="your@email.com"
+        required
+        aria-label="Email address"
+        class="w-full rounded-md border border-neutral-400 dark:border-neutral-600 bg-neutral-100 dark:bg-neutral-800 px-4 py-2 text-sm text-neutral-800 dark:text-neutral focus:outline-none focus:ring-2 focus:ring-primary-500"
+      />
+      <!-- Mailchimp bot protection — do not remove or rename this field -->
+      <div style="position:absolute;left:-5000px;" aria-hidden="true">
+        <input type="text" name="b_042682f6c2804b972bf9a7d8d_c9c02d4a70" tabindex="-1" value="" />
+      </div>
+      <button
+        type="submit"
+        class="rounded-md bg-primary-600 px-4 py-2 text-sm font-semibold text-neutral hover:bg-primary-500 dark:bg-primary-800 dark:hover:bg-primary-700 whitespace-nowrap cursor-pointer border-0"
+      >
+        Notify Me
+      </button>
+    </div>
+    <p class="mt-2 text-xs text-neutral-500 dark:text-neutral-400">
+      No spam, ever. Unsubscribe anytime.
+    </p>
+  </form>
+</div>

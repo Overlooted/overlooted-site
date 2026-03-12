@@ -1,0 +1,10 @@
+/* Overlooted – minimal overrides only */
+
+/* Keep the youtubeLite embed nicely rounded */
+lite-youtube {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
