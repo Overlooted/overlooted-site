@@ -44,7 +44,13 @@ The game blends the interconnected exploration of a Metroidvania with the satisf
 
 {{< youtubeLite id="71F5j3xDplY" label="Overlooted — Reveal Trailer" >}}
 
-*Screenshots and additional media coming soon.*
+### Screenshots
+
+![Village](village.png)
+![Vendor](vendor.png)
+![Epic Loot](epicLoot.png)
+![Loot Magnet](lootMagnet.png)
+![Loot Golem](lootGolem.png)
 
 ---
 
