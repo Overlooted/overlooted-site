@@ -1,6 +1,6 @@
 ---
 title: "New Video and Build"
-date: 2026-03-12
+date: 2026-04-30
 description: "Massive update and the game is actually available on itch now!"
 tags: ["mechanics", "update"]
 summary: "New build for people to test out, a video to show off the general vibe, and massive amount of content"
