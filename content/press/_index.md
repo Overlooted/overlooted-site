@@ -42,7 +42,7 @@ The game blends the interconnected exploration of a Metroidvania with the satisf
 
 ## Trailers & Media
 
-{{< youtubeLite id="ofumnarR8oM" label="Overlooted — Reveal Trailer" >}}
+{{< youtubeLite id="71F5j3xDplY" label="Overlooted — Reveal Trailer" >}}
 
 *Screenshots and additional media coming soon.*
 
@@ -52,7 +52,8 @@ The game blends the interconnected exploration of a Metroidvania with the satisf
 
 For press inquiries, review copies, and interview requests:
 
-**Email:** press@overlooted.com *(placeholder — update before publishing)*
+**Press Email:** searedentertainmentltd+press@gmail.com
+**Support Email:** searedentertainmentltd+support@gmail.com
 
 {{< social platform="twitter" label="Twitter / X" >}}
 &nbsp;

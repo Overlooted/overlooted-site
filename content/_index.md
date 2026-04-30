@@ -9,6 +9,6 @@ Explore handcrafted dungeons, unlock new tools to reach deeper areas, collect lo
 and make it back to town before the shadows catch up.
 {{< /lead >}}
 
-{{< youtubeLite id="ofumnarR8oM" label="Overlooted — Gameplay Trailer" >}}
+{{< youtubeLite id="71F5j3xDplY" label="Overlooted — Gameplay Trailer" >}}
 
 {{< mailchimp >}}
